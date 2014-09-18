@@ -27,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## cacheSolve function computes inverse matrix if not been computed before
 
-cacheSolve <- function(x, ...) {
+cacheSolve <- function(x, ...) { 
         
         ## a cache-able matrix (created with function makeCacheMatrix)
         
